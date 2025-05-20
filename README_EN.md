@@ -61,7 +61,6 @@ Expected = 1 / (1 + 10^((Elo_opponent - Elo_current)/400))
 Result = 1 for win, 0 for loss
 K = 32 by default, adjustable based on number of games
 ```
-
 ### 💾 Advanced Technical Stack
 - **Frontend**: React + Next.js
 - **Backend**: Node.js + Express
