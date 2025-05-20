@@ -61,7 +61,7 @@ Elo_new = Elo_current + K * (Result - Expected)
 Expected = 1 / (1 + 10^((Elo_opponent - Elo_current)/400))
 Result = 1 si victoire, 0 en cas de défaite
 K = 32 par défaut, ajustable selon le nombre de parties
-
+```
 
 ### 💾 Stack Technique Évoluée
 - **Frontend** : React + Next.js
