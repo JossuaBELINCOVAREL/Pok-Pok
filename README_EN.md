@@ -1,6 +1,4 @@
-# Recréation du fichier Markdown avec tout le contenu traduit en anglais
-
-markdown_content = """# 📘 Technical Specification - Web Application: Poker Elo
+# 📘 Technical Specification - Web Application: Poker Elo
 
 ## 🎯 General Objective
 Create a multiplayer web poker application **without real money**, based on an **Elo rating system** similar to chess.com. The goal is to provide a competitive, fun, and ethical experience focused on progression and performance analysis.
@@ -57,11 +55,12 @@ Introduce the **competitive dimension** with user accounts and an **Elo rating s
   - Player vs player within ±100 Elo range
 
 ### 🔢 Elo Rating Rules (suggested)
+```text
 Elo_new = Elo_current + K * (Result - Expected)
 Expected = 1 / (1 + 10^((Elo_opponent - Elo_current)/400))
 Result = 1 for win, 0 for loss
 K = 32 by default, adjustable based on number of games
-
+```
 
 ### 💾 Advanced Technical Stack
 - **Frontend**: React + Next.js
